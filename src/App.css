@@ -1,0 +1,247 @@
+body {
+  background-color: #00BD93;
+}
+h1 {
+  margin: 0;
+}
+.loading-page {
+  position: relative;
+  height:100vh;
+}
+.loading-page__logo {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -32px 0 0 -32px;
+}
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #FFF;
+  position: relative;
+  text-align: center;
+}
+.logo {
+  display: inline-block;
+  position: absolute;
+  left: 33px;
+  top: 20px;
+}
+.progress-bar {
+  color: #C3C3C3;
+  display: inline-block;
+  padding-top: 20px;
+  width: 30%;
+}
+.progress-bar__bar {
+  display: inline-block;
+  margin-left: 10px;
+  width: 50%;
+  height: 8px;
+  border-radius: 5px;
+  background-color: #E6E6E6;
+}
+.progress-bar__bar--progress {
+  width: 20%;
+  height: 100%;
+  background-color: #009EE8;
+  border-radius: 5px;
+}
+.sign-in {
+  width: 90px;
+  height: 40px;
+  background-color: #E6E6E6;
+  box-sizing: border-box;
+  border-radius: 5px;
+  position: absolute;
+  right: 1%;
+  top: 18%;
+  text-align: center;
+  color: #606060;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  padding-top: 12px;
+}
+.sign-in:hover {
+  background-color: #EDEDED;
+}
+.main-content-wrapper {
+  position: relative;
+  width: 940px;
+  height: calc(100vh);
+  margin: 60px auto;
+  background-color: #fff;
+  padding: 60px;
+}
+.hint {
+  width: 100%;
+  height: 160px;
+  background-color: #009EE8;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  color: #fff;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+.hint span {
+  font-size: 20px;
+}
+.textarea {
+  border: none;
+  text-transform: capitalize;
+  resize: none;
+  font: 40px Arial, sans-serif;
+  font-weight: bold;
+}
+.textarea:focus {
+  outline: none;
+}
+.name-and-role {
+  position: relative;
+  width: 62%;
+}
+.name-input {
+  width: 100%;
+  height: 50px;
+  color: #000;
+}
+.name-input::placeholder{
+  color: #E6E6E6;
+}
+.desired-role__input {
+  font-size: 21px;
+  color: #039FE8;
+}
+.desired-role__input::placeholder{
+  color: #CCECFA;
+}
+.next-button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  border: none;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #808080;
+}
+span.example {
+  font-size: 12px;
+  color: #95D6F4;
+}
+span.change-position {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.change-position:hover, .close-button:hover {
+  cursor: pointer;
+}
+.close-button {
+  position: absolute;
+  font: 20px/100% arial, sans-serif;
+  right: 40px;
+  top: 40px;
+}
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: url("https://app.enhancv.com/b7e44f9da8257826e8dd86a243c2ec6b.svg");
+}
+.profile-picture {
+  position: absolute;
+  right: 10%;
+  top: 6%;
+}
+.information-fields .textarea {
+  font-size: 12px;
+  width: 32%;
+}
+.other-fields {
+  display: inline-block;
+}
+.left-side {
+  width: 60%;
+  margin-right: 60px;
+  vertical-align: top;
+}
+.right-side {
+  width: 30%;
+}
+.experience {
+  margin: 0;
+}
+h1.title {
+  font-size: 26px;
+  border-bottom: 3px solid #000;
+  padding-bottom: 2px;
+}
+.experience textarea {
+  width: 100%;
+  text-transform: none;
+  height: 18px;
+  font-size: 12px;
+}
+textarea.position {
+  color: #000;
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: normal;
+  height: 26px;
+  overflow: hidden;
+}
+textarea.position::placeholder {
+  color: #000;
+}
+textarea.company {
+  color: #039FE8;
+  font-size: 16px;
+}
+textarea.company::placeholder {
+  color: #039FE8;
+}
+textarea.from-to {
+  width: 46%;
+}
+textarea.location {
+  width: 46%;
+  font-size: 10px;
+}
+textarea.example {
+  margin-top: -15px;
+  height: auto;
+  overflow: hidden;
+}
+li {
+  margin-top: -20px;
+  width: 74%;
+}
+.right-side textarea{
+  width: 100%;
+  font-size: 16px;
+  height: 16px;
+  overflow: hidden;
+  text-transform: none;
+}
+.right-side textarea::placeholder {
+  color: #000;
+}
+textarea.bit-more {
+  font-size: 12px;
+  height: auto;
+}
+textarea.bit-more::placeholder {
+  color: #606060;
+}
+.row1 {
+  margin: 20px 0;
+}
+.row2 {
+  margin-bottom: 60px;
+}
